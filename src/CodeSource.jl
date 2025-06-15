@@ -20,7 +20,7 @@ macro code_src(expr...)
 end
 
 macro code_simple(expr...)
-    codestr = InteractiveUtils.gen_call_with_extracted_types_and_kwargs(__module__, :code_string, expr)
+    codestr = InteractiveUtils.gen_call_with_extracted_types_and_kwargs(CodeTracking, :code_string, expr)
     :(print($codestr))
 end
 end
