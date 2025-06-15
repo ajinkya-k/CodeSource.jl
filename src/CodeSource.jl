@@ -15,7 +15,7 @@ macro code_src(expr...)
         tokens = collect(JuliaSyntax.tokenize($codestr))
         crayons = fill(Crayon(), length(tokens))
         OhMyREPL.Passes.SyntaxHighlighter.SYNTAX_HIGHLIGHTER_SETTINGS(crayons, tokens, 0, $codestr)
-        OhMyREPL.untokenize_with_ANSI(crayons, tokens, $codestr)
+        OhMyREPL.untokenize_with_ANSI(crayons, tokens, $codestr, 0)
     end
 end
 
