@@ -3,7 +3,7 @@ uuid = "9ac50e29-f585-44c0-a7d5-1443d3f96000"
 authors = [
     "Jerry Ling <proton@jling.dev>, Ajinkya Kokandakar <ajinkyakokandakar@gmail.com> and contributors",
 ]
-version = "0.1.0-DEV"
+version = "0.1.0"
 
 [deps]
 CodeTracking = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
