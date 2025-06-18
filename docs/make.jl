@@ -15,3 +15,9 @@ makedocs(;
     ],
     clean = true
 )
+
+DocumenterVitepress.deploydocs(;
+    repo = "github.com/ajinkya-k/CodeSource.jl", # this must be the full URL!
+    devbranch = "main",
+    push_preview = true,
+)
