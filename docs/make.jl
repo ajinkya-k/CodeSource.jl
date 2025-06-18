@@ -8,7 +8,7 @@ makedocs(;
     authors = "Jerry Ling <proton@jling.dev>, Ajinkya <ajinkyakokandakar@gmail.com> and contributors",
     sitename = "CodeSource.jl",
     format = DocumenterVitepress.MarkdownVitepress(
-        repo = "https://github.com/ajinka-k/CodeSource.jl",
+        repo = "https://github.com/ajinkya-k/CodeSource.jl",
     ),
     pages = [
         "index.md"
