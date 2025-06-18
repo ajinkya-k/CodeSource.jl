@@ -17,7 +17,9 @@ makedocs(;
 )
 
 DocumenterVitepress.deploydocs(;
-    repo = "github.com/ajinkya-k/CodeSource.jl", # this must be the full URL!
+    repo = "github.com/ajinkya-k/CodeSource.jl",
+    target = "build", # this is where Vitepress stores its output
     devbranch = "main",
+    branch = "gh-pages",
     push_preview = true,
 )
