@@ -9,6 +9,8 @@ makedocs(;
     sitename = "CodeSource.jl",
     format = DocumenterVitepress.MarkdownVitepress(
         repo = "https://github.com/ajinkya-k/CodeSource.jl",
+        devurl = "dev",
+        devbranch = "main",
         deploy_url = "https://ajinkyakokandakar.com/CodeSource.jl"
     ),
     pages = [
@@ -21,6 +23,7 @@ DocumenterVitepress.deploydocs(;
     repo = "github.com/ajinkya-k/CodeSource.jl",
     target = "build", # this is where Vitepress stores its output
     devbranch = "main",
+    devurl = "dev",
     branch = "gh-pages",
     push_preview = true,
 )
