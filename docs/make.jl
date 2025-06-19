@@ -9,6 +9,7 @@ makedocs(;
     sitename = "CodeSource.jl",
     format = DocumenterVitepress.MarkdownVitepress(
         repo = "https://github.com/ajinkya-k/CodeSource.jl",
+        deploy_url = "https://ajinkyakokandakar.com/CodeSource.jl"
     ),
     pages = [
         "index.md"
