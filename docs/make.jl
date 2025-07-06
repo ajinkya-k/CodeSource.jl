@@ -7,7 +7,7 @@ makedocs(;
     repo = Remotes.GitHub("ajinkya-k", "CodeSource.jl"),
     authors = "Jerry Ling <proton@jling.dev>, Ajinkya <ajinkyakokandakar@gmail.com> and contributors",
     sitename = "CodeSource.jl",
-    format = DocumenterVitepress.MarkdownVitepress(
+    format = DocumenterVitepress.MarkdownVitepress(;
         repo = "https://github.com/ajinkya-k/CodeSource.jl",
         devurl = "dev",
         devbranch = "main",
