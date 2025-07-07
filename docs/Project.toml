@@ -5,3 +5,6 @@ DocumenterVitepress = "4710194d-e776-4893-9690-8d956a29c365"
 
 [sources]
 CodeSource = {path = ".."}
+
+# [compat]
+# DocumenterVitepress = "0.1"
